@@ -3,29 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-.App{
+
+.movie-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
-  padding-left: 50px;
+  gap: 5px;
+  justify-content: space-around;
+}
+.movie-container{
+  /* background-color: orange; */
+  width: 300px;
 }
 
-.movie-container{
-  width: 300px;
-  border: 2px solid gray;
-  border-radius: 5px;
-}
 .movie-poster{
   width: 100%;
-  height: 300px;
+  object-fit: cover;
 }
-.movie-name-container{
+.movie-specs{
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 5px;
 }
 .movie-summary{
   padding: 5px;
+}
+
+/* counter */
+.counter-container button{
+  font-size: 20px;
+  margin-right: 5px;
 }
 
